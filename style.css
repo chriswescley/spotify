@@ -1,0 +1,333 @@
+/* Configurações do body */
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(150deg, #363636 1%, #242424 50%);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+/* Configurações da header */
+
+header {
+    padding-top: 2vh;
+    padding-right: 3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+    justify-content: ;
+    padding-left: 2vh;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: rgb(145, 144, 144);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+header img{
+    width: 12vh;
+}
+
+/* Configurações da section escutar */
+
+.escutar {
+    text-align: center;
+    padding-bottom: 12vh;
+ }
+
+.escutar h1 {
+    padding-top: 7vh;
+    margin-bottom: 0;
+    font-size: 8rem;
+}
+
+.escutar h2 {
+    margin-top: -4vh;
+    margin-bottom: 0;
+    font-size: 7rem;
+    color: #1db954;
+}
+
+.escutar p {
+    font-size: 1.5rem;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+
+#button-1 {
+    width: 23vh;
+    height: 6vh;
+    border-radius: 18px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #1db954;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#button-2 {
+    width: 23vh;
+    height: 6vh;
+    border-radius: 18px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden;      
+}
+
+#button-2:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Configurações assine */
+
+.assine {
+    width: 125vh;
+    height: 40vh;
+    margin-top: 15vh;
+    padding-top: 5vh;
+    margin-left: 20vh;
+    margin-bottom: 25vh;
+    padding-left: 15vh;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: inline-grid;
+    grid-template-rows: 10vh 10vh;
+    grid-template-columns: 70vh;
+}
+
+#grid-1 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-right: 5vh;
+}
+#grid-2 {
+    margin-top: 8vh;
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#grid-3 {
+    margin-top: 6vh;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#grid-1 h1 {
+    font-size: 3rem;
+}
+
+#grid-1 p {
+    font-size: 1.5rem;
+    color: rgb(145, 144, 144);
+}
+
+#button-3 {
+    width: 260px;
+    height: 60px;
+    margin-left: 15vh;
+    border-radius: 18px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #1db954;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#button-4 {
+    width: 260px;
+    height: 60px;
+    margin-left: 15vh;
+    border-radius: 18px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+#button-4:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Configurações Spotify Free */
+
+.spotify-free {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 25vh;
+}
+
+span {
+    color: #1db954;
+}
+
+#spotify-free-side {
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+
+#spotify-free-side h1 {
+    font: arial;
+    font-size: 2.5rem;
+}
+
+#spotify-free-side p {
+    font-size: 1.1rem;
+    color: rgb(187, 187, 187);
+    margin-top: -2vh;
+}
+
+#download-spotify-free {
+    width: 12vw;
+    height: 4.1vh;
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    margin-top: 1vh;
+    border-radius: 12px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid rgb(187, 187, 187);
+    cursor:pointer;
+    overflow: hidden;
+}
+
+#download-spotify-free:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Configurações de links do rodapé */
+
+.links {
+    padding-left: 5vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.links h4 {
+    padding-top: .7vh;
+}
+
+
+.links a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.links p {
+    padding-top: .7vh;
+}
+
+.links img {
+    width: 12vh;
+    margin-top: 2.5vh;
+}
+
+.icons {
+    margin-top: 3vh;
+}
+
+.fa-twitter {
+    margin-right: 3vh;
+}
+
+.fa-twitter:hover {
+    color: white;
+}
+
+.fa-instagram {
+    margin-right: 3vh;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
+.fa-facebook-f:hover {
+    color: white;
+}
+/* Configurações do footer */
+
+footer {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 18vh;
+}
+
+footer a {
+    font-family: sans-serif;
+    height: 1vh;
+    color: rgb(187, 187, 187);
+    font-size: 0.8rem;
+    margin-left: 3vh;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Considerações ao desenvolvedor UI/UX */
+
+footer p {
+    font-size: 0.7rem;
+    color: rgb(187, 187, 187);
+    padding-bottom: -15vh;
+    padding-left: 50%
+}
